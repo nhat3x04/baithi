@@ -1,0 +1,19 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Đặt chiều cao của phần tử cha */
+}
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Để các phần tử con xếp chồng lên nhau theo chiều dọc */
+    height: 100vh; /* Đặt chiều cao của phần tử cha */
+}
+
+.panel-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các panel */
+}
